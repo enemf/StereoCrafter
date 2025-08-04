@@ -51,7 +51,7 @@ python depth_splatting_inference.py \
   --output_video_path outputs/camel_splatting_results.mp4
 8. Запуск второго этапа (inpainting)
 python inpainting_inference.py \
-  --pre_trained_path weights/stabilityai/stable-video-diffusion-img2vid-xt-1-1 \
+  --pre_trained_path weights/stable-video-diffusion-img2vid-xt-1-1 \
   --unet_path        weights/StereoCrafter \
   --input_video_path outputs/camel_splatting_results.mp4 \
   --save_dir         outputs
